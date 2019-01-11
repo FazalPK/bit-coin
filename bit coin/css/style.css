@@ -1,0 +1,278 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 13, 2018, 12:31:20 AM
+    Author     : Jerry
+*/
+.wrapper
+{
+    background-color: #262832;
+    font-family: Myriad Pro Regular;
+    font-style: normal;
+    color:white;
+    height: 7335px;
+}
+.row
+{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.topnav
+{
+    background-color: #21222b;
+    height:1%;
+    padding: 20px;
+}
+ul 
+{
+    list-style: none;
+    color: white;
+    text-align: center;
+    float: right;
+}
+ul li
+{
+    float: left;
+    color: white;
+    padding: 5px 15px;
+}
+ul li a
+{
+    color: white;
+    font-size: 14pt;
+}
+
+ul li a:hover
+{
+    color: #fc5b4d !important;
+}
+.slider
+{
+    background-image: url('../images/slider.png');
+    background-size:  cover;
+    background-position: top;
+    height:17%;
+}
+.slider .data
+{
+    float: right;
+    vertical-align: middle;
+}
+
+#child {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    height: 30%;
+    width: 50%;
+}
+
+
+.myForm {
+    background-image:url('../images/counter.png');  
+    background-size:  cover;
+    background-repeat: no-repeat;
+    margin: 30px 50px 50px 50px; 
+    padding: 30px; 
+    width: 70%;
+    border-radius: 5px; 
+    text-align: center;
+    font-size: 0.8em;
+
+}
+
+
+.myForm button {
+    padding: 1em;
+    border-radius: 0.5em;
+    background: #eee;
+    border: none;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.myForm .progress
+{
+    width: 95%;
+    height: 8px;
+    margin-bottom: 0px;
+    margin-top: -15px;
+    border-radius: 15px;
+}
+
+.timeln
+{
+    padding:330px 0px 100px 50px;
+}
+
+.about
+{
+    padding-top: 50px;
+    background-image: url('../images/aboutus.png');
+    background-size:  cover;
+    text-align: center;
+    font-size: 14px;
+}
+
+.goal
+{
+    padding-top: 50px;
+    background-image: url('../images/goal.png');
+    background-size:  cover;
+    text-align: center;
+    height: 510px;
+}
+.goal .circle
+{
+    background-color: #2d2d2d;
+    height: 95px;
+    width: 95px;
+    color: #e05549;
+    border-radius: 70px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.timeline {
+    position: relative;
+    padding-top: 70px;
+    background-image: url('../images/timeline.png');
+    background-size:  cover;
+    height:1123px;
+}
+
+.content 
+{
+    padding: 20px 30px;
+    background-color: #1e202b;
+    color: #666666;
+    text-align: left;
+    width: fit-content;
+    border-radius: 6px;
+    margin-left: 55px;
+}
+
+.content a
+{
+    color: #666666;
+    font-size: 14pt;
+}
+
+.content a:hover
+{
+    color: #666666;
+}
+
+.team
+{
+    padding-top: 70px;
+    background-image: url('../images/team.png');
+    background-size:  cover;
+    height:660px;
+    text-align: center;
+}
+
+.carousel-indicators .active {
+    background-color: #fc5b4d !important;
+    max-width: 12px;
+    margin: 0 3px;
+    height: 12px;
+}
+
+.advisor
+{
+    padding-top: 70px;
+    background-image: url('../images/advisor.png');
+    background-size:  cover;
+    height:725px;
+    text-align: center;   
+}
+.partner
+{
+    padding-top: 70px;
+    background-image: url('../images/partner.png');
+    background-size:  cover;
+    height:360px;
+    text-align: center;   
+}
+
+.token
+{
+    padding: 70px 150px 0px 150px;
+    background-image: url('../images/token.png');
+    background-size:  cover;
+    height:700px;
+    color:black;   
+}
+
+.rewards
+{
+    padding-top: 70px;
+    background-color: #191b27;
+    height:700px;
+}
+.rew
+{
+    background-image: url('../images/logo.png');
+    background-size:  cover;
+    height: 80%;
+}
+.vl
+{
+    border-left: 6px solid #121219;
+    height: 440px;
+}
+.vl ul
+{
+    color: white;
+    text-align: left;
+    float: left;
+    list-style: circle;
+}
+.vl ul li 
+{
+    color: #999999;
+    padding: 25px 15px;
+    list-style: none;
+}
+
+.vl ul li::before
+{
+    color: #fc5b4d;  
+    content: "\2022";
+    font-size: 50px; 
+    float: left; 
+    margin: -22px -67px; 
+}
+.footer
+{
+    background-color: #161822;
+    height:380px;
+    padding: 50px 0px 50px 0px;
+}
+.footer ul
+{
+    text-align: left;
+}
+.footer1
+{
+    height:60px;
+    background-color: #0e0f16;
+}
+
+.social [class*="fa fa-"] {
+    background-color: #333;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin: auto 3px;
+    width: 30px;
+    font-size: 15px;
+    text-align: center;
+}
